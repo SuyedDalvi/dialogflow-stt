@@ -12,7 +12,7 @@ const {struct} = require('pb-util');
 // projectId: ID of the GCP project where Dialogflow agent is deployed
  const projectId = credentials.project_id;
 // sessionId: String representing a random number or hashed user identifier
- const sessionId = '123456';
+ const sessionId = Math.random();
 // languageCode: Indicates the language Dialogflow agent should use to detect intents
 const languageCode = 'en';
 
